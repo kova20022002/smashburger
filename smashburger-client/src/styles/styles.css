@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+}
+.prob {
+  height: 50vh;
+  width: 100vw;
+  background-image: url("../public/burger.JPG");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.logo-trans {
+  height: 20vh;
+}
+
+.menu {
+  height: 100%;
+  cursor: pointer;
+}
+
+.logo-div {
+  height: 20vh;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+/* ------------------------------------Burger-------------------------- */
+
+.burger-div {
+  display: flex;
+  margin: 20px;
+}
+
+.burger-pic {
+  width: 30vw;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.radio-group {
+  display: flex;
+}
+
+.radio-button {
+  display: none;
+}
+
+.radio-label {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.radio-label:hover {
+  background-color: #ddd;
+}
+
+.radio-label.selected {
+  background-color: #4caf50;
+  color: white;
+}
+
+.size {
+  width: 70vw;
+}
